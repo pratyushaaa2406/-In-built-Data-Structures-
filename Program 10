@@ -1,0 +1,12 @@
+#Program 10: Program to obtain numbers which are perfect squares and sum of their digits is less than 10
+
+import math
+start,end=1,100
+result = [] #create and empty list
+
+for num in range(start,end+1):
+    if math.isqrt(num)**2==num:
+        if sum(int(digits) for digits in str(num))<10:
+            result.append(num)
+
+print(result)
