@@ -1,0 +1,9 @@
+#Program 18:Program to concatenate dictionaries to create a new one
+
+# Two dictionaries representing marks in different subjects
+sub_marks1= {"PHYSICS": 87, "MATHS": 85}
+sub_marks2 = {"ENGLISH": 90, "CHEMISTRY": 98}
+
+# Concatenating dictionaries
+all_marks = {**sub_marks1, **sub_marks2}
+print("Combined marks from two subjects:", all_marks)
