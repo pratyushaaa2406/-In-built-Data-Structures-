@@ -1,0 +1,10 @@
+#Program 5 :Program to check if a List is Empty or Not
+
+#Create empty list
+list1=[]
+
+#if-else statement
+if not list1:
+    print("The list is not empty")
+else:
+    print("The list is empty")
