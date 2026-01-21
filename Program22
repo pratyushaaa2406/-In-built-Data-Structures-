@@ -1,0 +1,13 @@
+#Program 22: Program to Add a list of elements to a set
+
+#Existing dictionary
+my_subjects={"AEM","CALCULUS","EG"}
+
+#List to be added
+new_subjects=["PYTHON","ES","UHV"]
+
+#To add list to the given set
+my_subjects.update(new_subjects)
+
+#Print the results
+print("Updated set is ",my_subjects)
