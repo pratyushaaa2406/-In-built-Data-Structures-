@@ -1,0 +1,10 @@
+#Program 20: Program to merge two Python dictionaries
+
+#Two dictionaries representing marks in different subjects
+marks1={"phy":98 ,"calculus":99}
+marks2={"python":98 ,"Aem":97}
+
+#To merge two dictionaries
+merged_dicts=marks1.copy()
+merged_dicts.update(marks2)
+print("Merged marks are: ",merged_dicts)
