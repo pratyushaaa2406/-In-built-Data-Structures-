@@ -1,0 +1,12 @@
+#Program 23: Program to Update the first set with items that don’t exist in the second set existing dictionary
+
+my_subjects={"AEM","CALCULUS","EG"}
+
+#List to be added
+new_subjects={"AEM","PYTHON","ES","UHV","CALCULUS"}
+
+#To add list to the given set
+my_subjects.difference_update(new_subjects)
+
+#Print the results
+print("Updated set is ",my_subjects)
