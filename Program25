@@ -1,0 +1,15 @@
+#Program 25: Program to check if two sets have any elements in common.
+
+my_subjects={"AEM","CALCULUS","EG"}
+
+#List to be added
+new_subjects={"AEM","PYTHON","ES","UHV","CALCULUS"}
+
+#To add list to the given set
+common=my_subjects.intersection(new_subjects)
+
+#Print the results
+if common:
+    print(f"Common elements are {common}")
+else:
+    print("No common elements")
