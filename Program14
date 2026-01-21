@@ -1,0 +1,8 @@
+#Program 14: Program to Print values of dictionary
+
+#Dictionary of subject and its marks obtained
+sub_marks={"phy":87 ,"chem":98 ,"maths":85}
+
+#Print the marks(values)
+for marks in sub_marks.values():
+    print(marks)
