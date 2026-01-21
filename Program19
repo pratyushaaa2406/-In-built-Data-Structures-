@@ -1,0 +1,13 @@
+#Program 19: Program to check whether a given key already exists in a dictionary.
+
+#Create a dictionary
+sub_marks={"phy":98 ,"chem":99 ,"maths":100}
+
+#Specifying subject(key) to check
+sub_to_check="english"
+
+#Using if-else statement
+if sub_to_check in sub_marks:
+    print(f"{sub_to_check} is in the Dictionary")
+else:
+    print(f"{sub_to_check} is not in the Dictionary")
