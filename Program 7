@@ -1,0 +1,11 @@
+#Program 7: Program to Find the Second Largest Number in a List
+
+#Create a list
+list1=[10,20,30,40,50]
+
+#To find the second largest number in a list
+list1.sort(reverse=True)     #organise list in descending order
+num=list1[1]                 #second largest number corresponds to first index
+
+#print the result
+print(" The second largest number is ",num)
