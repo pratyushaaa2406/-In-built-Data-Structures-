@@ -1,0 +1,12 @@
+#Program 8: Program to Put Even and Odd elements in a List into Two Different Lists
+
+#Create a list
+numbers=[10,15,20,25,30,35,40,45,50]
+
+#Sort the even and odd elements
+even_num=[num for num in numbers if num%2==0]
+odd_num=[num for num in numbers if num%2!=0]
+
+#print the results
+print("Even numbers: ",even_num)
+print("Odd numbers: ",odd_num)
