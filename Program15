@@ -1,0 +1,8 @@
+#Program 15: Program to Print keys of dictionary
+
+#Dictionary of subject and its marks obtained
+sub_marks={"phy":87 ,"chem":98 ,"maths":85}
+
+#Print the subject(keys)
+for subject in sub_marks.keys():
+    print(subject)
