@@ -1,0 +1,10 @@
+#Program 6 :Program to Find the Largest Number in a List
+
+#Create a list
+list1=[10,20,30,40,50,60,70]
+
+#To find the largest number , use in-built max function
+largest_num=max(list1)
+
+#print the results
+print("The largest number is ",largest_num)
