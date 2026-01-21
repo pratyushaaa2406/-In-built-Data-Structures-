@@ -1,0 +1,5 @@
+#Program 12: Program to create and view a dictionary
+
+#Create a disctionary and display its key:pair values
+my_dict={'Name':'Pratyusha' ,'Age':18 ,'City':'Pune'}
+print("Dictionary is " ,my_dict)
