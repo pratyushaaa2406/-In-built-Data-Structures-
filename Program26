@@ -1,0 +1,12 @@
+#Program 26: Program to Remove items from set1 that are not common to both set1 and set2
+
+my_subjects={"AEM","CALCULUS","EG"}
+
+#List to be added
+new_subjects={"AEM","PYTHON","ES","UHV","CALCULUS"}
+
+#To add list to the given set
+my_subjects.intersection_update(new_subjects)
+
+#Print the results
+print(f"Common elements are {my_subjects}")
