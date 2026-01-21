@@ -3,5 +3,5 @@
 #Creating a tuple
 tuple1=(1,2,3,4,5,6)
 
-#To view the elements of list
-print("Elements of the list are ",tuple1)
+#To view the elements of tuple
+print("Elements of the tuple are ",tuple1)
