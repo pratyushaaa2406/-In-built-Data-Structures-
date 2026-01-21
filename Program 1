@@ -1,0 +1,7 @@
+#Program 1:Program to Create and view elements of a list
+
+#Creating a list
+list1=[1,2,3,4,5,6]
+
+#To view the elements of list
+print("Elements of the list are ",list1)
