@@ -1,0 +1,9 @@
+#Program 4 :Program to add two Lists
+
+#Create two lists
+list1=[1,2,3,4,5,6,7]
+list2=[8,9,"Apple","Kiwi"]
+result1=list1+list2
+result2=list2+list1
+print("ON adding two lists we get " ,result1)
+print("ON adding two lists we get " ,result2)
