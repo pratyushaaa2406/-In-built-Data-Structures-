@@ -1,0 +1,11 @@
+#Program 17: Program to sort (ascending and descending) a dictionary by value
+
+sub_marks={"phy": 87,"chem": 98,"maths": 85}
+
+# Sorting in ascending order by value (marks)
+asc_marks = dict(sorted(sub_marks.items(), key=lambda item: item[1]))
+print("Sorted in ascending order by marks:", asc_marks)
+
+# Sorting in descending order by value (marks)
+desc_marks = dict(sorted(sub_marks.items(), key=lambda item: item[1], reverse=True))
+print("Sorted in descending order by marks:", desc_marks)
