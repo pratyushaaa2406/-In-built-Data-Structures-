@@ -1,0 +1,12 @@
+#Program 21: Program to get the maximum and minimum value in a dictionary
+
+#Create a dictionary
+sub_marks={"AEM":97 ,"Calculus":99 ,"Python":98}
+
+#To find max value
+max_marks=max(sub_marks.values())
+print("Max marks are ",max_marks)
+
+#To find min value
+min_marks=min(sub_marks.values())
+print("Min marks are ",min_marks)
