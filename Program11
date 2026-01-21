@@ -1,0 +1,5 @@
+#Program 11: Program to Remove the Duplicate Items from a List
+
+nums_with_duplicates=[1,2,3,3,3,4,5,5,6]
+unique_nums=list(set(nums_with_duplicates))
+print("List after removing duplicates: ",unique_nums)
