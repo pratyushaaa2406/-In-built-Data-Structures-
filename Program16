@@ -1,0 +1,12 @@
+#Program 16: Program to insert and delete from dictionary
+
+#Dictionary of subject with their marks
+sub_marks={"phy":87,"chem":98,"maths":85}
+
+#Add a new subject
+sub_marks["eng"]=92
+print("Dictionary after adding an element ",sub_marks)
+
+#Delete a subject
+del sub_marks["phy"]
+print("Dictionary after deleting an element ",sub_marks)
