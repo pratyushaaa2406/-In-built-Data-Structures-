@@ -1,0 +1,12 @@
+#Program 24: Program to Return a set of elements present in Set A or B, but not both
+
+my_subjects={"AEM","CALCULUS","EG"}
+
+#List to be added
+new_subjects={"AEM","PYTHON","ES","UHV","CALCULUS"}
+
+#To add list to the given set
+result=my_subjects.symmetric_difference(new_subjects)
+
+#Print the results
+print("Updated set is ",result)
