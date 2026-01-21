@@ -1,0 +1,5 @@
+#Program 13: Program to create and view elements of a set
+
+#Create a set and display its elements
+my_set={1,2,3,4,5}
+print("Set Elements:",my_set)
