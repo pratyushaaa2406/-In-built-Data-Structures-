@@ -1,0 +1,8 @@
+#Program 3 :Program to access List Index and Values
+
+#Creating a list
+fruits=["apple","banana","mango","kiwi"]
+
+#using enumerate to obtain i,v from the list
+for i,v in enumerate(fruits):
+     print(i,v)
